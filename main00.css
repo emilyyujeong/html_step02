@@ -78,7 +78,7 @@ body {
     opacity: 0;
     transition: 0.3s;
     z-index: 999;
-    pointer-events: none;
+    visibility: hidden;
 }
 
 
@@ -88,6 +88,8 @@ body {
     top: 100%;
     display: block;
     opacity: 1;
+
+    visibility: visible;
 }
 
 
